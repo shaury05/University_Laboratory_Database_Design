@@ -12,8 +12,7 @@ The project demonstrates a full-lifecycle database implementation: from **EER Co
 * **Grant & Project Tracking:** Manages funding sources and their allocation to specific research projects and personnel.
 
 
-* 
-**Equipment Concurrency Control:** Implements **Application-Level Validation** to enforce business rules that standard SQL constraints cannot handle (e.g., preventing equipment checkout if active users ≥ 3).
+* **Equipment Concurrency Control:** Implements **Application-Level Validation** to enforce business rules that standard SQL constraints cannot handle (e.g., preventing equipment checkout if active users ≥ 3).
 
 
 * **Recursive Relationships:** Handles internal mentorship programs where lab members mentor other members.
