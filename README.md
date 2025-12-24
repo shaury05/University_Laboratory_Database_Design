@@ -6,20 +6,17 @@ The project demonstrates a full-lifecycle database implementation: from **EER Co
 
 ## 🚀 Key Features
 
-* 
-**Member Management:** Tracks a hierarchy of lab members including Faculty, Students (PhD/Masters), and External Collaborators using supertype/subtype relationships.
+* **Member Management:** Tracks a hierarchy of lab members including Faculty, Students (PhD/Masters), and External Collaborators using supertype/subtype relationships.
 
 
-* 
-**Grant & Project Tracking:** Manages funding sources and their allocation to specific research projects and personnel.
+* **Grant & Project Tracking:** Manages funding sources and their allocation to specific research projects and personnel.
 
 
 * 
 **Equipment Concurrency Control:** Implements **Application-Level Validation** to enforce business rules that standard SQL constraints cannot handle (e.g., preventing equipment checkout if active users ≥ 3).
 
 
-* 
-**Recursive Relationships:** Handles internal mentorship programs where lab members mentor other members.
+* **Recursive Relationships:** Handles internal mentorship programs where lab members mentor other members.
 
 
 * **Analytical Reporting:** Generates insights such as:
@@ -37,16 +34,13 @@ The project demonstrates a full-lifecycle database implementation: from **EER Co
 
 ## 🛠️ Tech Stack
 
-* 
-**Database:** MySQL 9.5 
+* **Database:** MySQL 9.5 
 
 
-* 
-**Language:** Python 3.x 
+* **Language:** Python 3.x 
 
 
-* 
-**Driver:** `mysql-connector-python` 
+* **Driver:** `mysql-connector-python` 
 
 
 * **Design Tools:** EER Modeling, Relational Algebra
@@ -102,25 +96,21 @@ This project addresses several complex data modeling challenges:
 
 * **Normalization:** The schema is normalized to 3NF to reduce redundancy, particularly in the handling of publication authorships and project funding.
 * **Complex Constraints:**
-* 
-*Recursive Logic:* The `LAB_MEMBER` table includes a foreign key `MENTOR` referencing itself to create a hierarchy.
+* *Recursive Logic:* The `LAB_MEMBER` table includes a foreign key `MENTOR` referencing itself to create a hierarchy.
 
 
-* 
-*Transaction Safety:* Python logic wraps SQL transactions to ensure equipment status is only updated to 'In Use' after validating current usage counts.
+* *Transaction Safety:* Python logic wraps SQL transactions to ensure equipment status is only updated to 'In Use' after validating current usage counts.
 
 
 
 
-* 
-**Advanced Querying:** Utilizes `LEFT JOIN` operations to ensure accurate reporting (e.g., including majors with zero publications in statistical averages).
+* **Advanced Querying:** Utilizes `LEFT JOIN` operations to ensure accurate reporting (e.g., including majors with zero publications in statistical averages).
 
 
 
 ## 👥 Contributors
 
-* 
-**Shaury Pratap Singh** (Team Lead, Backend Logic) 
+* **Shaury Pratap Singh** (Team Lead, Backend Logic) 
 
 
 * Abhiram Panuganti 
