@@ -51,11 +51,7 @@ The conceptual model was mapped to a relational schema normalized to 3NF. Foreig
  
  [Final Implementation Report](design_docs/Final_Implementation_Report.pdf).
 
-Here is the corrected code for the **Setup & Installation** block.
 
-I have fixed the `git clone` URL to use your actual username/repo and corrected the bolding syntax so it won't show raw asterisks.
-
-```markdown
 ## ⚙️ Setup & Installation
 
 **Prerequisites:** MySQL Server installed locally or remotely.
