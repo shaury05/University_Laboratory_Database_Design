@@ -58,6 +58,37 @@ The conceptual model was mapped to a relational schema normalized to 3NF. Foreig
    git clone [https://github.com/shaury05/University_Laboratory_Database_Design.git](https://github.com/shaury05/University_Laboratory_Database_Design.git)
    cd University_Laboratory_Database_Design
 
+```
+
+2. **Set up the Database**
+Open your MySQL client (Workbench or CLI) and run the SQL scripts in this order:
+1. Execute `schema.sql` to build the tables and relationships.
+2. Execute `seed_data.sql` to load sample data.
+
+
+3. **Install Python Dependencies**
+```bash
+pip install mysql-connector-python
+
+```
+
+
+4. **Configure Connection**
+Open `app.py` and update the `db_config` dictionary with your database credentials.
+> **Note:** It is recommended to use environment variables for the password in a production environment.
+
+
+5. **Run the Application**
+```bash
+python app.py
+
+```
+
+
+
+```
+
+```
 
 
 ## 👥 Contributors
