@@ -45,10 +45,17 @@ The initial model captures complex business rules, including recursive mentorshi
 ### 2. Logical Design (Relational Schema)
 The conceptual model was mapped to a relational schema normalized to 3NF. Foreign keys (arrows) indicate referential integrity constraints.
 
-![Relational Schema](design_docs/Logical_Relational_Schema.pdf)
+[Relational Schema](design_docs/Logical_Relational_Schema.pdf)
 
- ***3. Detailed Documentation:** For a full breakdown of the constraints, testing queries, and implementation challenges, please read the [Final Implementation Report](design_docs/Final_Implementation_Report.pdf).
+ ***3. Detailed Documentation:** For a full breakdown of the constraints, testing queries, and implementation challenges, please read the 
+ 
+ [Final Implementation Report](design_docs/Final_Implementation_Report.pdf).
 
+Here is the corrected code for the **Setup & Installation** block.
+
+I have fixed the `git clone` URL to use your actual username/repo and corrected the bolding syntax so it won't show raw asterisks.
+
+```markdown
 ## ⚙️ Setup & Installation
 
 **Prerequisites:** MySQL Server installed locally or remotely.
@@ -89,7 +96,6 @@ python app.py
 ```
 
 ```
-
 
 ## 👥 Contributors
 
