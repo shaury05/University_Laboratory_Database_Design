@@ -28,65 +28,64 @@ The project demonstrates a full-lifecycle database implementation: from **EER Co
 * `schema.sql`: DDL scripts to create the database, tables, views, and constraints.
 * `seed_data.sql`: DML scripts to populate the database with sample testing data.
 * `design_docs/`: Directory containing design artifacts:
-    * `Conceptual_EER_Diagram.png`: The conceptual database model.
-    * `Logical_Relational_Schema.png`: The normalized relational schema.
+    * `Conceptual_EER_Diagram.pdf`: The conceptual database model.
+    * `Logical_Relational_Schema.pdf`: The normalized relational schema.
     * `Final_Implementation_Report.pdf`: Detailed documentation of the implementation and testing.
-
 
 ## 🧠 Database Design & Modeling
 
 The system architecture followed a strict two-phase design process to ensure data integrity and normalization.
 
 ### 1. Conceptual Design (EER Diagram)
-The initial model captures complex business rules, including recursive mentorships and disjoint specializations (Student/Faculty/Collaborator).
+The initial model captures complex business rules, including recursive mentorships and disjoint specializations.
 
-[Conceptual EER Diagram](design_docs/Conceptual_EER_Diagram.pdf)
+📄 **[View Conceptual EER Diagram (PDF)](design_docs/Conceptual_EER_Diagram.pdf)**
 
 ### 2. Logical Design (Relational Schema)
-The conceptual model was mapped to a relational schema normalized to 3NF. Foreign keys (arrows) indicate referential integrity constraints.
+The conceptual model was mapped to a relational schema normalized to 3NF.
 
-[Relational Schema](design_docs/Logical_Relational_Schema.pdf)
+📄 **[View Relational Schema (PDF)](design_docs/Logical_Relational_Schema.pdf)**
 
- ***3. Detailed Documentation:** For a full breakdown of the constraints, testing queries, and implementation challenges, please read the 
- 
- [Final Implementation Report](design_docs/Final_Implementation_Report.pdf).
-
+> 📄 **Detailed Documentation:** For a full breakdown of the constraints, testing queries, and implementation challenges, please read the [Final Implementation Report](design_docs/Final_Implementation_Report.pdf).
 
 ## ⚙️ Setup & Installation
 
 **Prerequisites:** MySQL Server installed locally or remotely.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/shaury05/University_Laboratory_Database_Design.git
-   cd University_Laboratory_Database_Design
+### 1. Clone the repository
+```bash
+git clone [https://github.com/shaury05/University_Laboratory_Database_Design.git](https://github.com/shaury05/University_Laboratory_Database_Design.git)
+cd University_Laboratory_Database_Design
 
 ```
 
-2. **Set up the Database**
+### 2. Set up the Database
+
 Open your MySQL client (Workbench or CLI) and run the SQL scripts in this order:
+
 1. Execute `schema.sql` to build the tables and relationships.
 2. Execute `seed_data.sql` to load sample data.
 
+### 3. Install Python Dependencies
 
-3. **Install Python Dependencies**
 ```bash
 pip install mysql-connector-python
 
 ```
 
+### 4. Configure Connection
 
-4. **Configure Connection**
 Open `app.py` and update the `db_config` dictionary with your database credentials.
+
 > **Note:** It is recommended to use environment variables for the password in a production environment.
 
+### 5. Run the Application
 
-5. **Run the Application**
 ```bash
 python app.py
 
 ```
-```
+
 ## 👥 Contributors
 
 * **Shaury Pratap Singh** (Team Lead, Backend Logic)
@@ -94,3 +93,7 @@ python app.py
 * Rithvik Reddy
 
 Developed for **CS 631: Data Management Systems Design** at NJIT.
+
+```
+
+```
