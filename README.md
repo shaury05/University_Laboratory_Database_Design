@@ -39,12 +39,12 @@ The system architecture followed a strict two-phase design process to ensure dat
 ### 1. Conceptual Design (EER Diagram)
 The initial model captures complex business rules, including recursive mentorships and disjoint specializations (Student/Faculty/Collaborator).
 
-![Conceptual EER Diagram](design_docs/Conceptual_EER_Diagram.png)
+![Conceptual EER Diagram](design_docs/Conceptual_EER_Diagram.pdf)
 
 ### 2. Logical Design (Relational Schema)
 The conceptual model was mapped to a relational schema normalized to 3NF. Foreign keys (arrows) indicate referential integrity constraints.
 
-![Relational Schema](design_docs/Logical_Relational_Schema.png)
+![Relational Schema](design_docs/Logical_Relational_Schema.pdf)
 
 > 📄 **Detailed Documentation:** For a full breakdown of the constraints, testing queries, and implementation challenges, please read the [Final Implementation Report](design_docs/Final_Implementation_Report.pdf).
 
@@ -92,7 +92,3 @@ python app.py
 * Rithvik Reddy
 
 Developed for **CS 631: Data Management Systems Design** at NJIT.
-
-```
-
-```
