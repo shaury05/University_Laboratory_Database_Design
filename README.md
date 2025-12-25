@@ -46,7 +46,8 @@ The conceptual model was mapped to a relational schema normalized to 3NF. Foreig
 
 [Relational Schema](design_docs/Logical_Relational_Schema.pdf)
 
-**Detailed Documentation:** For a full breakdown of the constraints, testing queries, and implementation challenges, please read the 
+### 3. **Detailed Documentation:**
+For a full breakdown of the constraints, testing queries, and implementation challenges, please read the 
 [Final Implementation Report](design_docs/Final_Implementation_Report.pdf).
 
 ## ⚙️ Setup & Installation
