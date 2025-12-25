@@ -88,10 +88,8 @@ python app.py
 
 ## 👥 Contributors
 
-* **Shaury Pratap Singh** (Team Lead, Backend Logic)
+* **Shaury Pratap Singh** (Team Lead, Backend Logic),[LinkedIn](https://www.linkedin.com/in/shaury05)
 * Abhiram Panuganti
 * Rithvik Reddy
 
 Developed for **CS 631: Data Management Systems Design** at NJIT.
-```
-```
