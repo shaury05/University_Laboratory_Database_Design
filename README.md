@@ -58,7 +58,7 @@ The conceptual model was mapped to a relational schema normalized to 3NF. Foreig
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/shaury05/University_Laboratory_Database_Design.git](https://github.com/shaury05/University_Laboratory_Database_Design.git)
+   git clone https://github.com/shaury05/University_Laboratory_Database_Design.git
    cd University_Laboratory_Database_Design
 
 ```
@@ -86,13 +86,7 @@ Open `app.py` and update the `db_config` dictionary with your database credentia
 python app.py
 
 ```
-
-
-
 ```
-
-```
-
 ## 👥 Contributors
 
 * **Shaury Pratap Singh** (Team Lead, Backend Logic)
